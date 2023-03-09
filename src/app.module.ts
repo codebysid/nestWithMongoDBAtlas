@@ -7,7 +7,7 @@ import { UserSchema } from './user.schema';
 
 @Module({
   imports: [
-    MongooseModule.forRoot('mongodb+srv://sidmj7403:oCghHMwMaVN6K3mr@user.qmwl141.mongodb.net/?retryWrites=true&w=majority'),
+    MongooseModule.forRoot('Enter URI Here'),
     MongooseModule.forFeature([{name:'user',schema:UserSchema}]),
     FirestoreModule],
   controllers: [AppController],
